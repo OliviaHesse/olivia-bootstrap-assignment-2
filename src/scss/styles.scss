@@ -10,3 +10,31 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+.jumbotron {
+  background: url(../img/pirate-ship.jpg) center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Della Respira', serif;
+  text-align: center; 
+
+  p, h1 {
+    color: white;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.story {
+  font-family: 'Della Respira', serif;
+}
+
+.active {
+  text-decoration: underline;
+}
